@@ -1,0 +1,92 @@
+/* Configuración de fondo y fuentes */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3f2fd;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #1e88e5;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+/* Estilo de las secciones */
+section {
+    padding: 20px;
+    margin: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    text-align: justify;
+}
+
+h2 {
+    color: #1e88e5;
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+/* Navegación */
+nav {
+    display: flex;
+    gap: 15px;
+    background-color: #64b5f6;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para alinear imágenes a la derecha, excepto la primera */
+.right-image {
+    float: right;
+    margin-left: 20px;
+    max-width: 300px; /* Todas las imágenes excepto la primera tienen el mismo tamaño */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1e88e5;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+}

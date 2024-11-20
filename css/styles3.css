@@ -1,0 +1,78 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8f5e9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Estilo del encabezado */
+header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+.image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+/* Menú de navegación */
+nav {
+    display: flex;
+    gap: 15px;
+    background-color: #66bb6a;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+/* Estilo de las secciones */
+section {
+    padding: 20px;
+    margin: 15px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+    transition: transform 0.3s;
+}
+section:hover {
+    transform: scale(1.05);
+}
+h2 {
+    color: #2e7d32;
+    font-size: 1.8em;
+}
+p {
+    font-size: 1.1em;
+    text-align: justify;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2e7d32;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
